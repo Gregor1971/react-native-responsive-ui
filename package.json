@@ -42,15 +42,12 @@
         "jest-junit-reporter": "^1.1.0"
     },
     "scripts": {
-        "start": "react-native-scripts start",
-        "eject": "react-native-scripts eject",
-        "android": "react-native-scripts android",
-        "ios": "react-native-scripts ios",
         "test": "node node_modules/jest/bin/jest.js",
         "test:watch": "node node_modules/jest/bin/jest.js --watch",
         "flow": "flow",
         "lint": "eslint App.js App.test.js example/ lib/",
-        "release": "semantic-release pre && npm publish && semantic-release post"
+        "release": "semantic-release pre && npm publish && semantic-release post",
+        "yalc": "yalc push"
     },
     "jest": {
         "preset": "jest-expo",
